@@ -383,6 +383,22 @@ img.mob{
     display: none;
 }
 
+.story{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.story .item-story{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3vw auto;
+}
+
+
 @media (max-width:767px) {
         
     img.mob{
@@ -404,8 +420,23 @@ img.mob{
     .time-line .content-right{
         margin: 25px auto;
     }
+
+    .col-11{
+        margin: auto;
+    }
+
 }
 
+.album{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.album .image{
+    padding:  5px !important;
+}
 
 
 
