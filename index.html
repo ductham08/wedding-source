@@ -178,7 +178,7 @@
                     </div>
 
                     <div class="content-right col-md-4 col-12" data-aos="fade-left">
-                        <div class="swiper mySwiper">
+                        <div class="swiper mySwiper banner-time-line">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide"><img
                                         src="./publics/images/banner-00.JPG"
@@ -228,6 +228,20 @@
             var swiper = new Swiper(".mySwiper", {
                 slidesPerView: 1,
                 spaceBetween: 10,
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+
+            var swiper = new Swiper(".banner-time-line", {
+                slidesPerView: 1,
+                spaceBetween: 0,
                 loop: true,
                 autoplay: {
                     delay: 2500,
