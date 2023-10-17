@@ -440,7 +440,40 @@ img.mob{
 }
 
 
+.location{
+    text-align: center;
+}
 
+.location hr{
+    text-align: center;
+    margin: 25px auto;
+}
+
+.bank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.bank .left .col-md-10.col-12{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 767px) {
+    .bank .left {
+        order: 2;
+    }
+
+    .bank .right {
+        order: 1;
+        margin: 25px 0;
+    }
+}
 
 
 /* CONTENT MAIN END */
