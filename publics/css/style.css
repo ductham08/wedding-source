@@ -150,6 +150,7 @@ body.active {
     right: 0;
     z-index: 3;
     height: min-content;
+    background-color: #0000004d;
 }
 
 .header .header_desk .container {
@@ -214,7 +215,7 @@ body.active {
 
     .header .header_mobile .btn_menu_mobile .item_menu {
         position: relative;
-        background-color: black;
+        background-color: white;
         width: 32px;
         height: 5px;
         margin: 5px 0px;
@@ -238,7 +239,7 @@ body.active {
     }
 
     .header .header_mobile .menu_move {
-        background-color: white;
+        background-color: #0000004d;
         width: 100%;
         position: fixed;
         right: 0;
