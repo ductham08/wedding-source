@@ -425,6 +425,14 @@ img.mob{
     .col-11{
         margin: auto;
     }
+        
+    .time-line .content-left .right .line{
+        height: 21px;
+    }
+
+    .time-line h5{
+        font-size: 16px;
+    }
 
 }
 
