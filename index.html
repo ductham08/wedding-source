@@ -64,19 +64,19 @@
                 <div class="menu_move">
                     <ul>
                         <li>
-                            <a href="#time-line">Thời gian</a>
+                            <a onclick="closeMenu()" href="#time-line">Thời gian</a>
                         </li>
                         <li>
-                            <a href="#location">Địa Điểm</a>
+                            <a onclick="closeMenu()" href="#location">Địa Điểm</a>
                         </li>
                         <li>
-                            <a href="#story">Chuyện chúng mình</a>
+                            <a onclick="closeMenu()" href="#story">Chuyện chúng mình</a>
                         </li>
                         <li>
-                            <a href="#album">Ảnh của chúng mình</a>
+                            <a onclick="closeMenu()" href="#album">Ảnh của chúng mình</a>
                         </li>
                         <li>
-                            <a href="#happy">Chúc phúc</a>
+                            <a onclick="closeMenu()" href="#happy">Chúc phúc</a>
                         </li>
                     </ul>
                 </div>
@@ -491,6 +491,12 @@
             $('body').toggleClass('active');
             $(".btn_menu_mobile").toggleClass("active");
             $(".menu_move").toggleClass("active");
+        }
+
+        const closeMenu = () => {
+            $('body').removeClass('active');
+            $(".btn_menu_mobile").removeClass("active");
+            $(".menu_move").removeClass("active");
         }
 
         $(document).ready(function() {
