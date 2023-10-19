@@ -483,6 +483,6 @@ footer{
 }
 
 .tab{
-    padding: 35px  0;
+    padding: 35px  0 !important;
 }
 /* CONTENT MAIN END */
